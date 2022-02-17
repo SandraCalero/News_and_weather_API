@@ -5,60 +5,43 @@ body {
   font-size: 14px;
   font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+.filters,
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .filters {
-  position: relative;
-  background: white;
-  height: 70px;
-  width: 100%;
-  border: 1px solid #dddddd;
-  border-radius: 4px;
+  margin-top: 32px;
 }
-button {
-  position: absolute;
-  font-size: 18px;
-  background: #ff5a5f;
-  color: #ffffff;
-  height: 48px;
-  width: 20%;
-  border-style: none;
-  border-radius: 4px;
-  top: 15%;
-  right: 30px;
+article {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
 }
-button:hover {
-  opacity: 0.9;
+
+article h1 {
+  margin-bottom: 2px;
 }
-.filters div {
-  display: inline-grid;
+
+.card {
+  border: 1px solid #b5b5b5;
+  border-radius: 5px;
+  width: 350px;
+  min-height: 100px;
 }
-.filters h2 {
-  margin-left: 15%;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-weight: 600;
+
+.city {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }
-.filters h3 {
-  margin-left: 15%;
-  margin-bottom: 0;
-  font-weight: 600;
+
+.city input {
+  height: 24px;
 }
-.filters h4 {
-  margin-left: 15%;
-  margin-top: 0;
-  font-weight: 400;
-  font-size: 14px;
-  white-space: nowrap;
-  width: 210px;
-  height: 16px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.locations {
-  height: 100%;
-  width: 25%;
-  border-right: 1px solid #dddddd;
-}
-.amenities {
-  height: 100%;
-  width: 25%;
+.city h4 {
+  margin: 0;
 }
