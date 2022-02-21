@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="../static/styles/style.css" />
+    <title>News&Weather</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script
+      type="text/javascript"
+      src="../static/scripts/newsandweather.js"
+    ></script>
+  </head>
+  <body>
+    <section class="filters">
+      <h3>City</h3>
+      <div class="search">
+        <div class="search-container">
+          <input type="text" placeholder="example: Miami, US" class="" /><!---->
+        </div>
+        <button type="submit" class="button-round dark">Search</button>
+      </div>
+    </section>
+    <section class="container">
+      <article class="News">
+        <h1>News</h1>
+        <div class="card">
+          <div class="singlenew">
+            <h2>
+              ESPN y Star EN VIVO - Sigue, Barcelona vs. Napoli online: TV de
+              transmisión por Europa League - El Comercio Perú
+            </h2>
+            <span class="orange-text">Feb 17, 2022 06:12 pm</span>
+            <br />
+            <img
+              src="https://elcomercio.pe/resizer/v6uiFaQzCT_v6BxZ_9_178O1-9U=/980x528/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/XMPK67RPEREOVMCBH7QBUAZZPU.png"
+              alt="Image"
+            />
+            <div>
+              Por la señal de ESPN, mira Barcelona vs. Napoli EN VIVO | ONLINE |
+              EN DIRECTO en partido de ida de la eliminatoria de playoffs de la
+              Europa League en el estadio Camp Nou.
+            </div>
+            <a
+              href="https://elcomercio.pe/deporte-total/futbol-mundial/espn-barcelona-vs-napoli-hoy-en-europa-league-online-via-star-plus-y-movistar-hora-del-partido-canales-donde-lo-transmiten-en-directo-y-alineaciones-del-barca-vs-napoles-rmmd-espana-es-argentina-ar-mexico-mx-cdmx-noticia/"
+              >View more</a
+            >
+          </div>
+        </div>
+      </article>
+      <article class="Weather">
+        <h1>Weather</h1>
+        <div class="card">
+          <div>
+            <span class="orange-text">Feb 17, 07:06pm</span>
+            <h2 style="margin-top: 0px">Santiago de Cali, CO</h2>
+          </div>
+          <div>
+            <div class="current-temp">
+              <svg
+                width="50px"
+                height="50px"
+                viewBox="0 0 148 148"
+                class="owm-weather-icon"
+              >
+                <path
+                  d="M46.533 68.506c.762 0 1.507.07 2.24.17a18.34 18.34 0 01-.409-3.834c0-10.112 8.198-18.31 18.313-18.31 9.838 0 17.843 7.765 18.269 17.5a10.935 10.935 0 017.367-2.852c6.067 0 10.986 4.922 10.986 10.989 0 1.382-.267 2.7-.734 3.918a13.1 13.1 0 012.565-.256c7.08 0 12.818 5.74 12.818 12.817 0 7.08-5.738 12.82-12.818 12.82H46.533c-9.103 0-16.481-7.38-16.481-16.482 0-9.101 7.378-16.48 16.481-16.48"
+                  fill="#efefed"
+                ></path></svg
+              ><span class="heading">30°C</span>
+            </div>
+            <div class="bold">Feels like 31°C. Scattered clouds</div>
+            <ul
+              class="weather-items text-container orange-side standard-padding"
+            >
+              <li>
+                <div class="wind-line">
+                  <svg
+                    viewBox="0 0 1000 1000"
+                    enable-background="new 0 0 1000 1000"
+                    xml:space="preserve"
+                    class="icon-wind-direction"
+                    style="transform: rotate(180deg)"
+                  >
+                    <g fill="#48484a">
+                      <path
+                        d="M510.5,749.6c-14.9-9.9-38.1-9.9-53.1,1.7l-262,207.3c-14.9,11.6-21.6,6.6-14.9-11.6L474,48.1c5-16.6,14.9-18.2,21.6,0l325,898.7c6.6,16.6-1.7,23.2-14.9,11.6L510.5,749.6z"
+                      ></path>
+                      <path
+                        d="M817.2,990c-8.3,0-16.6-3.3-26.5-9.9L497.2,769.5c-5-3.3-18.2-3.3-23.2,0L210.3,976.7c-19.9,16.6-41.5,14.9-51.4,0c-6.6-9.9-8.3-21.6-3.3-38.1L449.1,39.8C459,13.3,477.3,10,483.9,10c6.6,0,24.9,3.3,34.8,29.8l325,898.7c5,14.9,5,28.2-1.7,38.1C837.1,985,827.2,990,817.2,990z M485.6,716.4c14.9,0,28.2,5,39.8,11.6l255.4,182.4L485.6,92.9l-267,814.2l223.9-177.4C454.1,721.4,469,716.4,485.6,716.4z"
+                      ></path>
+                    </g>
+                  </svg>
+                  2.6m/s N
+                </div>
+              </li>
+              <li>
+                <svg
+                  width="96pt"
+                  height="96pt"
+                  viewBox="0 0 96 96"
+                  class="icon-pressure"
+                >
+                  <g
+                    transform="translate(0,96) scale(0.100000,-0.100000)"
+                    fill="#48484a"
+                    stroke="none"
+                  >
+                    <path
+                      d="M351 854 c-98 -35 -179 -108 -227 -202 -27 -53 -29 -65 -29 -172 0
+    -107 2 -119 29 -172 38 -75 104 -141 180 -181 58 -31 66 -32 176 -32 110 0
+    118 1 175 32 77 40 138 101 178 178 31 57 32 65 32 175 0 110 -1 118 -32 176
+    -40 76 -106 142 -181 179 -49 25 -71 29 -157 32 -73 2 -112 -1 -144 -13z m259
+    -80 c73 -34 126 -86 161 -159 24 -50 29 -73 29 -135 0 -62 -5 -85 -29 -135
+    -57 -119 -161 -185 -291 -185 -130 0 -234 66 -291 185 -24 50 -29 73 -29 135
+    0 130 66 234 185 291 82 40 184 41 265 3z"
+                    ></path>
+                    <path
+                      d="M545 600 c-35 -35 -68 -60 -80 -60 -27 0 -45 -18 -45 -45 0 -33 -50
+    -75 -89 -75 -18 0 -41 -5 -53 -11 -20 -11 -20 -11 3 -35 12 -13 33 -24 46 -24
+    17 0 23 -6 23 -23 0 -13 10 -33 23 -45 30 -28 47 -13 47 43 0 32 6 47 28 68
+    15 15 37 27 48 27 26 0 44 18 44 44 0 12 26 47 60 81 l60 61 -28 27 -28 27
+    -59 -60z"
+                    ></path>
+                  </g></svg
+                >1012hPa
+              </li>
+              <li><span class="symbol">Humidity:</span>51%</li>
+
+              <li><span class="symbol">Visibility:</span>10.0km</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+    </section>
+  </body>
+</html>
